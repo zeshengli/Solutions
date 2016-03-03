@@ -28,6 +28,10 @@
 		790D3C141C880C0B00AF5A3B /* Staircase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Staircase.h; sourceTree = "<group>"; };
 		790D3C171C880CF700AF5A3B /* PlusMinus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusMinus.h; sourceTree = "<group>"; };
 		790D3C191C880F7C00AF5A3B /* PowerOfThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerOfThree.h; sourceTree = "<group>"; };
+		790D3C1A1C8815E900AF5A3B /* InheritanceIntroduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InheritanceIntroduction.h; sourceTree = "<group>"; };
+		790D3C1B1C88160900AF5A3B /* RectangleArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectangleArea.h; sourceTree = "<group>"; };
+		790D3C1C1C88172200AF5A3B /* MultiLevelInheritance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiLevelInheritance.h; sourceTree = "<group>"; };
+		790D3C1D1C881C2000AF5A3B /* AccessingInheritedFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessingInheritedFunctions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				790D3C161C880C8900AF5A3B /* algorithms */,
+				790D3C1B1C88160900AF5A3B /* RectangleArea.h */,
+				790D3C1C1C88172200AF5A3B /* MultiLevelInheritance.h */,
+				790D3C1D1C881C2000AF5A3B /* AccessingInheritedFunctions.h */,
 			);
 			name = hackerrank;
 			sourceTree = "<group>";
@@ -80,6 +87,7 @@
 			children = (
 				790D3C141C880C0B00AF5A3B /* Staircase.h */,
 				790D3C171C880CF700AF5A3B /* PlusMinus.h */,
+				790D3C1A1C8815E900AF5A3B /* InheritanceIntroduction.h */,
 			);
 			name = algorithms;
 			sourceTree = "<group>";
@@ -267,6 +275,7 @@
 				790D3C131C880B5000AF5A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
