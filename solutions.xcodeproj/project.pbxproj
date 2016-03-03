@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		790D3C0A1C880B5000AF5A3B /* solutions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = solutions; sourceTree = BUILT_PRODUCTS_DIR; };
 		790D3C0D1C880B5000AF5A3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		790D3C141C880C0B00AF5A3B /* Staircase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Staircase.h; sourceTree = "<group>"; };
+		790D3C171C880CF700AF5A3B /* PlusMinus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusMinus.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,27 @@
 		790D3C0C1C880B5000AF5A3B /* solutions */ = {
 			isa = PBXGroup;
 			children = (
+				790D3C151C880C5800AF5A3B /* hackerrank */,
 				790D3C0D1C880B5000AF5A3B /* main.cpp */,
 			);
 			path = solutions;
+			sourceTree = "<group>";
+		};
+		790D3C151C880C5800AF5A3B /* hackerrank */ = {
+			isa = PBXGroup;
+			children = (
+				790D3C161C880C8900AF5A3B /* algorithms */,
+			);
+			name = hackerrank;
+			sourceTree = "<group>";
+		};
+		790D3C161C880C8900AF5A3B /* algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				790D3C141C880C0B00AF5A3B /* Staircase.h */,
+				790D3C171C880CF700AF5A3B /* PlusMinus.h */,
+			);
+			name = algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
