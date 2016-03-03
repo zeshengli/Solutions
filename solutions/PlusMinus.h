@@ -1,5 +1,5 @@
 //
-//  Header.h
+//  PlusMinus.h
 //  solutions
 //
 //  Created by Stephen Rawson on 3/2/16.

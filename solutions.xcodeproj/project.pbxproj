@@ -27,6 +27,7 @@
 		790D3C0D1C880B5000AF5A3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		790D3C141C880C0B00AF5A3B /* Staircase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Staircase.h; sourceTree = "<group>"; };
 		790D3C171C880CF700AF5A3B /* PlusMinus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusMinus.h; sourceTree = "<group>"; };
+		790D3C191C880F7C00AF5A3B /* PowerOfThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PowerOfThree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		790D3C0C1C880B5000AF5A3B /* solutions */ = {
 			isa = PBXGroup;
 			children = (
+				790D3C181C880EE000AF5A3B /* leetcode */,
 				790D3C151C880C5800AF5A3B /* hackerrank */,
 				790D3C0D1C880B5000AF5A3B /* main.cpp */,
 			);
@@ -80,6 +82,14 @@
 				790D3C171C880CF700AF5A3B /* PlusMinus.h */,
 			);
 			name = algorithms;
+			sourceTree = "<group>";
+		};
+		790D3C181C880EE000AF5A3B /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				790D3C191C880F7C00AF5A3B /* PowerOfThree.h */,
+			);
+			name = leetcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
